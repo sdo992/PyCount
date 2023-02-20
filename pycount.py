@@ -32,7 +32,7 @@ ending = time.time() # Get the time at which the while loop ended
 stp = str(round(ending - start, 3)) #Limit to three decimal places and convert to a string
 endtd = timedelta(seconds=(ending - start)) #Evaluating a different method to show time
 print("Completed WHILE LOOP in: " + stp + " seconds")
-print("Completed WHILE LOOP in: " + str(endtd)[:-3] + " seconds")
+print("Completed WHILE LOOP in: " + str(endtd)[:-3] + " seconds") #Limit to three decimal points
 
 fstart = time.time() #Evaluating difference between WHILE and FOR loops
 for i in range(nuin):
