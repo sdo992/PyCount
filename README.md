@@ -16,7 +16,7 @@ It would be an incredibly long time.
 In its current iteration, it simply accepts user input (hopefully a number) and will count up to that number and display the time it took to reach the count rounded to 3 decimal places. It's a work in progress.
 
 Goals:
-- Error catch
+- <em>Error catch</em> <b>(Implemented on 20 Feb 2023, still in progress)</b>
 - Parallel processing; rather than use one CPU, use all available
 - Extrapolate larger numbers; for example, if it takes 0.05 seconds to count to 100,000, how long would it take to count to 1 trillion?
 - Have the program add human-readable numbers (such as with commas, where appropriate) based on input and results
