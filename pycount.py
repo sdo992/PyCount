@@ -26,7 +26,7 @@ print("Counting to " + format(nuin, ',d')) #Format output to a more readable num
 a = 1 # Declare variable before time stamp and loop
 start = time.time() # Get the current time
 
-while a <= uin:
+while a <= nuin:
     a = a + 1
 ending = time.time() # Get the time at which the while loop ended
 stp = str(round(ending - start, 3)) #Limit to three decimal places and convert to a string
