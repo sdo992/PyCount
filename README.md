@@ -13,11 +13,11 @@ It would be an incredibly long time.
 
 ## Current Code
 
-In its current iteration, it simply accepts user input (hopefully a number) and will count up to that number and display the time it took to reach the count rounded to 3 decimal places. It's a work in progress.
+The recent update implemented multiprocessor use. I implemented a function to chunk the number into as equal sized numbers as possible based on the amount of cores/threads <em>os.system</em> finds. This program will count up to that number and display the time it took to reach the count rounded to 3 decimal places. It's a work in progress.
 
 Goals:
-- <em>Error catch</em> <b>(Implemented on 20 Feb 2023, still in progress)</b>
-- Parallel processing; rather than use one CPU, use all available
+- Have the user enter the number of cores to use
+- <color=red>COMPLETED</color>: Parallel processing; rather than use one CPU, use all available
 - Extrapolate larger numbers; for example, if it takes 0.05 seconds to count to 100,000, how long would it take to count to 1 trillion?
 - Have the program add human-readable numbers (such as with commas, where appropriate) based on input and results
 - Have fun!
