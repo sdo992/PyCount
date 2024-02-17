@@ -17,7 +17,7 @@ The recent update implemented multiprocessor use. I implemented a function to ch
 
 Goals:
 - [x] Have the user enter the number of cores to use
-- [x] Parallel processing; rather than use one CPU, use all available
+- [x] Parallel processing; use number of CPU cores that user specifies
 - [ ] Extrapolate larger numbers; for example, if it takes 0.05 seconds to count to 100,000, how long would it take to count to 1 trillion?
 - [x] Have the program add human-readable numbers (such as with commas, where appropriate) based on input and results
 - [x] Have fun!
